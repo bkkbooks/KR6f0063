@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6f0063/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說大乘無量壽莊嚴經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0363.xml
+    old_id: T12n0363
+hash: sha256:6607d42987f7143f1d603bf9b4a7fcddbbf27e5258c9d4b120aebc990e256cb2

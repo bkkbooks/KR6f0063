@@ -1,0 +1,75 @@
+canonical_identifier: bkk:krp/KR6f0063/v1
+canonical_location: https://kanripo.org/bkk/KR6f0063/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說大乘無量壽莊嚴經
+  identifiers:
+    alt_id:
+    - T12n0363
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0363.xml
+    old_id: T12n0363
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0063_000.yaml, hash: 'sha256:6607d42987f7143f1d603bf9b4a7fcddbbf27e5258c9d4b120aebc990e256cb2'}
+  - {seq: 1, filename: KR6f0063_001.yaml, hash: 'sha256:2b9477b2153471eeb631a2077c86aab786cca45f5756c4917b10d488291d069a'}
+  - {seq: 2, filename: KR6f0063_002.yaml, hash: 'sha256:f49a7748911ecd356f76972ba88ac5898efd71db5d31e4bb2eaf0b8c30a8bd31'}
+  - {seq: 3, filename: KR6f0063_003.yaml, hash: 'sha256:12e63cd8ed8b6d2f9529530ed8930171d3146404ac296c5b2a276a432a7d6288'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6f0063_001.markers.yaml, hash: 'sha256:65d70030e73ad7988d2866cb28465700ebc6f765f0cf0dabd430d5d041bd4bc4'}
+  - {seq: 2, role: markers, filename: assets/KR6f0063_002.markers.yaml, hash: 'sha256:194fe0a59212d90b7f1beb034ac8538d5b1281119deeeeb82d6f97704f8d5cd1'}
+  - {seq: 3, role: markers, filename: assets/KR6f0063_003.markers.yaml, hash: 'sha256:45c12a61f0e69139bb9dcb6ea5f3d46e53b8fb4d83d24787eeb01a05ccdfe71d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6f0063_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3642
+  label: 佛說大乘無量壽莊嚴經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6f0063_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 4056
+  label: 佛說大乘無量壽莊嚴經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6f0063_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 4025
+  label: 佛說大乘無量壽莊嚴經卷下
+  type: juan
+  level: 1
+hash: sha256:509332185df5eebb427389e434fb1cbffa2f2d9ab21c0c014588a9e9f5ecfa85
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
