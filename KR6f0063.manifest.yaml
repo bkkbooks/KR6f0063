@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6f0063/v1
 canonical_location: https://kanripo.org/bkk/KR6f0063/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說大乘無量壽莊嚴經
   identifiers:
@@ -31,14 +31,14 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6f0063_000.yaml, hash: 'sha256:6607d42987f7143f1d603bf9b4a7fcddbbf27e5258c9d4b120aebc990e256cb2'}
-  - {seq: 1, filename: KR6f0063_001.yaml, hash: 'sha256:6681b86706fee7a71b42f38cb0be720aef1a57639996c8202a7929177a065d56'}
-  - {seq: 2, filename: KR6f0063_002.yaml, hash: 'sha256:9d836addb881b31a6b5307f1fab20430061e590cbbe1fe7eb5970c60f7a1715f'}
-  - {seq: 3, filename: KR6f0063_003.yaml, hash: 'sha256:25a293fb52a18123c4e8f7f34b17878c6569715e55e9944d1331477c9dbfad20'}
+  - {seq: 1, filename: KR6f0063_001.yaml, hash: 'sha256:446f76262a1652ab63a0485b96d975338ecafc9750d92c76814597c4bb397f6d'}
+  - {seq: 2, filename: KR6f0063_002.yaml, hash: 'sha256:f8281b0692ea6a816e295727c8a1a9b5f0824eb706a7dde41bb7e3d93f44ae43'}
+  - {seq: 3, filename: KR6f0063_003.yaml, hash: 'sha256:3a4b060ca53c7b083ae49d12a9a50e540747e5ff688b722b77449ee5489eb609'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6f0063_000.markers.yaml, hash: 'sha256:c72678262714e17ced4f029e01068fabf842449ca58983099e014180fb5da136'}
-  - {seq: 1, role: markers, filename: assets/KR6f0063_001.markers.yaml, hash: 'sha256:a550231c38aa13facca5d1210593867098f1b6cf10423064c4617600c412b8ba'}
-  - {seq: 2, role: markers, filename: assets/KR6f0063_002.markers.yaml, hash: 'sha256:1ee81846c40b2beef5eb6a88582db5165280e8e370c414f816238682d098abc7'}
-  - {seq: 3, role: markers, filename: assets/KR6f0063_003.markers.yaml, hash: 'sha256:51ad01f93c0aa08df9488db0c2ffd80dee9eef47b9f0c8d597148ae9ebb0248d'}
+  - {seq: 1, role: markers, filename: assets/KR6f0063_001.markers.yaml, hash: 'sha256:2f424dbe78399a1a2df3ece0fa538f86d7cbbe1203d3c27be5b0f8035beb8191'}
+  - {seq: 2, role: markers, filename: assets/KR6f0063_002.markers.yaml, hash: 'sha256:51a33796dcf87013c7d1329888b2e7d3f1abc60c24bc2872d53d4fbf5d84466a'}
+  - {seq: 3, role: markers, filename: assets/KR6f0063_003.markers.yaml, hash: 'sha256:09657f8a9b1b3922a1e6eb71c5362ad56a6773112cb656106579b4d2954ab01b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -70,4 +70,7 @@ table_of_contents:
   label: 佛說大乘無量壽莊嚴經卷下
   type: juan
   level: 1
-hash: sha256:2f0b6a0c707341531ae5e9719c6ae70ce37fcf6873c685dcd74e947a7fdc34d7
+hash: sha256:5f1b40171c5893974e864ad8edd034eee09828ab21a94222a45868462127a613
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
